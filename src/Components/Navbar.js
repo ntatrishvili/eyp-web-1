@@ -12,7 +12,7 @@ function Navbar() {
 	return (
 		<header>
 			{/* <img src = '../public/logo_EYP.png' alt = 'EYP logo'/> */}
-			<img src = './logo_EYP2.png' alt='logo' height='80px'/>
+			<img src = './logo_EYP.png' alt='logo' height='80px'/>
 			<nav ref={navRef}>
 				<a href="/#">Home</a>
 				<a href="/#">News</a>
