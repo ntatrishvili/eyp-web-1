@@ -1,18 +1,20 @@
-@import url("https://fonts.gstatic.com/s/sourcesanspro/v21/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdh18Smxg.woff2");
-/* src: url() format('woff2'); */
-  
+@font-face {
+	font-family: 'Source_Sans_Pro';
+	src: url('./Source_Sans_Pro/SourceSansPro-Bold.ttf')format('embedded-opentype')
+}
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Source Sans Pro', sans-serif;;
+	font-family: Source_Sans_Pro;
 }
 
 :root {
 	--mainColor: #00000000;
-	--mainColorLight: #000000;
+	--mainColorLight: #a4acda;
 	--secondaryColor: #394692;
-	--textColor: #000000;
+	--textColor: rgb(0, 0, 0);
 }
 
 header {
@@ -26,9 +28,13 @@ header {
 }
 
 nav a {
-	margin: 0 1rem;
+	margin-left: 0 1rem;
 	color: var(--textColor);
 	text-decoration: none;
+	margin-bottom: 0 15rem;
+	padding: 0 1rem;
+	border-right: 1px #909090 solid;
+	border-left: 1px#909090 solid; 
 }
 
 nav a:hover {
