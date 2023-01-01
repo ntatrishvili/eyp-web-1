@@ -1,0 +1,23 @@
+/* .main-partners{
+    color: black;
+    text-decoration: false;
+    background-color: #24272c;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} */
+
+.partner{
+    padding: 5px;
+} 
+
+.partners{
+    padding: 15px;
+}
+
+.slider{
+    /* background-color: aquamarine; */
+    text-decoration: none;
+    color:black;
+}

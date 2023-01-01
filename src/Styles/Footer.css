@@ -1,9 +1,28 @@
 .main-footer {
-
+    box-sizing: border-box;
     color: white;
-    background: #24272c;
-    padding-top: 1em;
-    position: fixed;
+    background-color: #24272c;
+    padding: 20px;
+    position: relative;
     bottom: 0;
     width: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    color:#fff;
+    line-height: 24px;
+}
+ 
+.footer-title{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.91);
+    margin: 10px 0 20px;
+    text-underline-offset: 11px;
+    text-decoration-line: underline;
+    text-decoration-color: #394692;
+}
+
+li{
+    margin-bottom: 10px;
 }

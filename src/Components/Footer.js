@@ -1,45 +1,55 @@
 import React from 'react';
 import "../Styles/Footer.css"
-const Footer = () => {
+
+const Sponsors = (props) =>
+{
+    return (
+        <>
+            <img className='partner' src={props.src} alt = {props.alt} height ='100px'/>
+        </>
+    );
+}
+
+function Footer () {
     return(
         <div className = "main-footer">
             <div className='container'>
                 <div className='row'>
                     <div className='col'>
-                        <h4>Contact</h4>
+                        <div className='footer-title'>Contact</div>
                         <ul className='list-unstyled'>
-                            <li>+995 LIZIS/ANAS NOMERI?</li>
+                            <li>+995 555 93 76 65</li>
                             <li>Tbilisi, Georgia</li>
-                            <li>Tchavchavadze str. 45?</li>
+                            <li>36 I. Chavchavadze Avenue</li>
                             <li>info@eyp.org.ge</li>
                         </ul>
                     </div>
                     <div className='col'>
-                        <h4>Useful Links</h4>
+                    <div className='footer-title'>Useful Links</div>
                         <ul className='list-unstyled'>
-                            <li>EYP umbrella organisation</li>
-                            <li>EYP members platform</li>
-                            <li>Schwarzkopf Foundation</li>
+                            <li> <a className='link' href="http://www.eyp.org" target={"_blank"}>EYP umbrella organisation</a></li>
+                            <li> <a className='link' href="http://www.members.eyp.org" target={"_blank"}>EYP members platform</a></li>
+                            <li> <a className='link' href="https://schwarzkopf-stiftung.de/en/" target={"_blank"}>Schwarzkopf Foundation</a></li>
                         </ul>
                     </div>
                     <div className='col'>
-                        <h4>more stuff</h4>
+                    <div className='footer-title'>Information</div>
                         <ul className='list-unstyled'>
-                            <li>+995 599080101</li>
-                            <li>Kutaisi, Georgia</li>
-                            <li>dzveli skola ragac str. 45?</li>
+                            <li>Data protection</li>
+                            <li>Imprint</li>
+                            <li>Transparency</li>
                         </ul>
                     </div>
                 </div>
-                <hr/>
-                <div className='row'>
+                {/*<hr/>
+                 <div className='row'>
                     <p className='col-sm'>
-                        &copy;{new Date().getFullYear()} EYP Georgia | Privacy
+                        &copy;{new Date().getFullYear()} EYP Georgia | Terms of Service | Privacy
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
-    )
+    );
 }
 
 export default Footer;
