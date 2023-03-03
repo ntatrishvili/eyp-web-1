@@ -8,8 +8,11 @@
     width: 100%;
 } */
 
+.header{
+    text-align: center;
+}
 .partner{
-    padding: 5px;
+    margin: 0px 20px;
 } 
 
 .partners{
@@ -17,7 +20,6 @@
 }
 
 .slider{
-    /* background-color: aquamarine; */
     text-decoration: none;
     color:black;
 }

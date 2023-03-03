@@ -12,10 +12,6 @@
  header{
 	position:relative;
 	background-color: #000000B3;
-	display: flex;
-	flex-direction: row;
-	align-items:baseline;
-	justify-content: center;
 	gap: 0.5rem;
 	background-color: var(--mainColor);
 	border-style:groove;
@@ -24,10 +20,11 @@
 	border-right: 0px;
 	border-color:#d4daf2;
 	padding: 20px;
+	margin-bottom: 30px;
 	height: 320px;
 }
 .nav-menu-btn, .nav-close-btn{
-	visibility: hidden;
+	visibility:visible;
 }
 nav .nav-close-btn {
 	position: relative;
@@ -63,8 +60,8 @@ a {
 		display: flex;
 		width: 100%;
 		justify-content:space-between;
-		height: 106px;
-		overflow: auto;
+		height: 100px;
+		overflow:hidden;
 	}	
 
 	.logo{
@@ -84,7 +81,7 @@ a {
 		position: relative;
 		box-sizing: border-box;
 		display: inline-block;
-		padding: 0 18px;
+		padding: 17px 18px 0px 18px;
 		width: 20%;
 		font-size: 14px;
 		font-weight: 600;

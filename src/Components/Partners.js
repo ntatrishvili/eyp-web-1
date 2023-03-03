@@ -31,13 +31,15 @@ const Partners = () => {
             <img className='partner' src={spar_logo} alt="spar georgia" height='100px'/>
             <img className='partner' src={tbilisi_clean_ups_logo} alt="Tbilisi clean ups" height='100px'/>
     </div>
-    return(
+    return(<>
         <div className='container'>
+            <h1 className='Header'>Current Partners</h1>
             {/* {images} */}
             <Slider {...settings}>
                 {images}
             </Slider>
         </div>
+    </>
     )
 }
 

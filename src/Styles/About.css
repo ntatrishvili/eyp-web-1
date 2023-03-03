@@ -1,0 +1,13 @@
+.AboutEYPBanner{
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aqua;
+    border: 5px;
+}
+
+.aboutCard{
+    border:10px;
+    background-color: aqua;
+    box-shadow: none;
+}
