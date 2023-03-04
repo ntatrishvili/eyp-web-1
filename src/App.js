@@ -19,6 +19,7 @@ function App() {
                         <Route path='/contact' element ={<Contact/>}/>
                         <Route path='/news' element ={<News/>}/>
                         <Route path='/partners' element ={<Partners/>}/>
+                        <Route path='eyp-web-1' element ={<Home/>}/>
                     </Routes>
                     <Footer/> 
                 </BrowserRouter> 
