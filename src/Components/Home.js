@@ -20,7 +20,7 @@ export default function Home() {
               <div className='newsText'>The session will take place in ... at.... while... and will gather up to ... participants</div>
               <button className='openNewsButton' onClick={console.log("eypIsCool")}>see more</button>
             </div>
-          </div>w
+          </div>
       </div>
 
       <div className='card' key={1}>
