@@ -8,7 +8,7 @@ function Contact() {
     0179, Tbilisi, Georgia<br/>
   </div>
   const phone = <div>
-    Telephone:+995 555 93 76 65 (Mon - Fri: 10 a.m. - 4:30 p.m.)
+    Telephone:+995 555 46 33 73 (Mon - Fri: 10 a.m. - 4:30 p.m.)
   </div>
   const email = <div>
     Email:

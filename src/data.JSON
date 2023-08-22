@@ -1,0 +1,25 @@
+{
+    "about": {
+        "cards": [
+            {
+                "about-network": "The European Youth Parliament has been working all around Europe for more than 35 years now. ",
+            },
+            {
+                "about-eypge": "The European Youth Parliament Georgia (EYP GE) is a local branch of the EYP international network that has existed since 2008. EYP GE has hosted more than 60 sessions in various central and remote regions of Georgia and has reached up to 4500 participants in total",
+            },
+            {
+                "our-values": "The core values of EYP Georgia are active citizenship and civic education through cooperation"
+            }
+        ]
+    },
+    "about-ge":{
+        "cards":[
+            {
+                "about-eypge": "ევროპის ახალგაზრდული პარლამენტი - საქართველო (ე.ა.პ, საქართველო) არის ევროპის ახალგაზრდული პარლამენტთა ქსელის ქართული ფილიალი, რომელიც ფუნქციონირებს 2008 წლიდან. არსებობის განმავლობაში, ეაპ საქართველომ უმასპინძლა 60ზე მეტ სესიას როგორც საქართველოს დიდ ქალაქებში, ასევე რეგიონებში. სესიებმა შეკრიბა 4500ზე მეტი ახალგაზრდა 30ზე მეტი ქვეყნიდან.",
+            },
+            {
+                "our-values": "ეაპ საქართველოს მთავარი მიზნებია აქტიური მოქალაქეობისა და მაღალი მოქალაქეობრივი პასუხისმგებლობის მქონე საზოგადოების ჩამოყალიბება გუდნური მუშაობის მეშვეობით"
+            }
+        ]
+    }
+}
