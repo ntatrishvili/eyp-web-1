@@ -1,11 +1,11 @@
 import React from 'react';
 import "../Styles/Partners.css"
-import ESlogo from '../partner_logos/ESlogo.png'
-import green_movement_logo from '../partner_logos/green_movement_logo.png'
-import green_gift_logo from '../partner_logos/green_gift_logo.png'
-import parki_ar_minda_logo from '../partner_logos/parki_ar_minda_logo.png'
-import spar_logo from '../partner_logos/spar_logo.png'
-import tbilisi_clean_ups_logo from '../partner_logos/tbilisi_clean_ups_logo.png'
+import ESlogo from '../assets/logos/partner_logos/ESlogo.png'
+import green_movement_logo from '../assets/logos/partner_logos/green_movement_logo.png'
+import green_gift_logo from '../assets/logos/partner_logos/green_gift_logo.png'
+import parki_ar_minda_logo from '../assets/logos/partner_logos/parki_ar_minda_logo.png'
+import spar_logo from '../assets/logos/partner_logos/spar_logo.png'
+import tbilisi_clean_ups_logo from '../assets/logos/partner_logos/tbilisi_clean_ups_logo.png'
 import Slider from "react-slick";
 
 const Partners = () => {

@@ -1,6 +1,8 @@
 import { useRef } from "react";
+import React from 'react'
 import "../Styles/Navbar.css";
-import {Link} from 'react-router-dom'
+import {Link, RouterLink} from 'react-router-dom'
+import eyp_logo from '../assets/logos/eyp_logos/20150422_JL_Georgia-1C-noBG-wide (1).png' 
 
 function Navbar() {
 	const navRef = useRef();
@@ -8,22 +10,21 @@ function Navbar() {
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};       
-
 	const pages = [
 		{link: 'news', txt: 'News'}, 
-		{link:'about', txt:'About EYP'}, 
+		{link:'who_we_are', txt:'Who we are'}, 
+		{link:'what_we_do', txt:'What we do'}, 
 		{link:'partners', txt:'Partners'},
 		{link:'contact', txt:'Contact'}];
 
 	return (
 		<header>
 			<div className="container">
-				{/* <a href="/">  */}
-				<img src = '/logo_EYP.png' alt='EYP logo' height='80px' className="logo"/> 
-				{/* </a> */}
+				<Link to="/">
+					<img src = {eyp_logo} alt='EYP logo' height='80px' className="logo"/> 
+				</Link>
 				<nav ref={navRef}>
 					{pages.map((pg, num) => {
-						//return <a href={"/"+lnk} key={num}>{txt}</a> //varianti 1
 						return (
 							<>
 							<Link to={pg.link} key={num}>

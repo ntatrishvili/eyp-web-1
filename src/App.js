@@ -1,12 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Components/Home';
-import About from './Components/About';
-import Contact from  './Components/Contact';
-import News from './Components/News';
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
-import Partners from './Components/Partners';
+import Home from './components/Home';
+import Contact from  './components/Contact';
+import News from './components/News';
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Partners from './components/Partners';
+import Who_we_are from './components/Who_we_are';
+import What_we_do from './components/Who_we_are';
+
+
+
 function App() {
     return (
         <div className='page-container'>
@@ -15,17 +19,18 @@ function App() {
                     <Navbar/>
                     <Routes>
                         <Route path='/' element={<Home/>}/>
-                        <Route path='/about' element ={<About/>}/>
+                        <Route path='/who_we_are' element ={<Who_we_are/>}/>
+                        <Route path='/what_we_do' element ={<What_we_do/>}/>
                         <Route path='/contact' element ={<Contact/>}/>
                         <Route path='/news' element ={<News/>}/>
                         <Route path='/partners' element ={<Partners/>}/>
-                        <Route path='eyp-web-1' element ={<Home/>}/>
                     </Routes>
                     <Footer/> 
                 </BrowserRouter> 
             </div>
         </div>
     );
+
 }
 
 export default App;

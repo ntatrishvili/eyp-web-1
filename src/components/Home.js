@@ -1,5 +1,5 @@
 import React from 'react'
-import ESlogo from '../partner_logos/ESlogo.png'
+import ESlogo from '../assets/logos/partner_logos/ESlogo.png'
 import {Link, useNavigate} from 'react-router-dom'
 import '../Styles/Home.css'
 // import { CardContent } from '@mui/material';
@@ -69,5 +69,6 @@ export default function Home() {
 </div>
     </>
   )
+
 }
 

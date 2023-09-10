@@ -12,17 +12,3 @@ root.render(<>
         <App/>
 </>
 );
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-
-// root.render(
-//     <BrowserRouter>
-//     <Routes>
-//         <Route path='/' element={<Home />}/>
-//         <Route path='/about' element ={<About />}/>
-//         <Route path='/contact' element ={<Contact />}/>
-//         <Route path='/news' element ={<News />}/>
-//     </Routes>
-//         <div>Hello World!</div>
-//     </BrowserRouter>
-// )
