@@ -10,7 +10,6 @@ function Navbar() {
 	};       
 
 	const pages = [
-		{link: '', txt: 'Home'},
 		{link: 'news', txt: 'News'}, 
 		{link:'about', txt:'About EYP'}, 
 		{link:'partners', txt:'Partners'},
@@ -19,7 +18,9 @@ function Navbar() {
 	return (
 		<header>
 			<div className="container">
-				<img src = '.\logo_EYP.png' alt='EYP logo' height='80px' className="logo"/>
+				{/* <a href="/">  */}
+				<img src = '/logo_EYP.png' alt='EYP logo' height='80px' className="logo"/> 
+				{/* </a> */}
 				<nav ref={navRef}>
 					{pages.map((pg, num) => {
 						//return <a href={"/"+lnk} key={num}>{txt}</a> //varianti 1

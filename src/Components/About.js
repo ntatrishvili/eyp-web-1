@@ -80,7 +80,7 @@ function About() {
             </div>
         </div>
     )
-    Hi, I'm Nia, a 19 year-old Comp Science student at BME. I'm from Tbilisi, Georgia. I love puzzles, logic problems, mind games or games in general. I work as a project management intern, so hit me up to discuss agile workflow <3 8499203655
+    // Hi, I'm Nia, a 19 year-old Comp Science student at BME. I'm from Tbilisi, Georgia. I love puzzles, logic problems, mind games or games in general. I work as a project management intern, so hit me up to discuss agile workflow <3 8499203655
 
 }
 
@@ -88,6 +88,6 @@ function cards() {
     for (const card in data) {
         about_card(card.va)
     }
-    Object.data
+    // Object.data
 }
 export default About;
