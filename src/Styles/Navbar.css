@@ -7,7 +7,7 @@
 	--mainColorLight: #a4acda;
 	--secondaryColor: #394692;
 	--textColor: rgba(5, 2, 26, 0.749);
-} 
+}
 
  header{
 	position:relative;
@@ -23,16 +23,23 @@
 	margin-bottom: 30px;
 	height: 320px;
 }
-.nav-menu-btn, .nav-close-btn{
+/* .nav-menu-btn, .nav-close-btn{
 	visibility:visible;
 }
 nav .nav-close-btn {
 	position: relative;
 	top: 0rem;
 	right: 2rem; 
+} */
+.logo{
+	display: flex;
+	height: 80%;
+	max-width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 .menu-btn{
-	display: block;
+	display: flex;
 	margin: 0 auto;
 	background-color: inherit;
 	color:rgba(5, 2, 26, 0.749);
@@ -43,10 +50,6 @@ nav .nav-close-btn {
 	font-size: 1.5rem;
 }
 
-a {
-	color: white;
-	text-decoration: none;
-}
 
 .menu-btn:hover {
 	color: var(--secondaryColor);
@@ -55,38 +58,45 @@ a {
 @media only screen and (min-width: 600px) {
 	
 	header {
-		flex-direction: row;
-		position: relative;
 		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 		width: 100%;
-		justify-content:space-between;
 		height: 100px;
 		overflow:hidden;
 	}	
 
-	.logo{
-		position: absolute;
-		left: 1%;
-		display: inline-block;
+	.navbar_container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		overflow:hidden;
+		width:100%;
+		height:100%;
 	}
 
-	nav{
-		width: 60%;
-		padding-left: 15px;
-		padding-right: 15px;
-		position: absolute;
-		right: 5%;
+	.logo{
+		max-width: 100%;
+		margin-left: 32%;
+	}
+	
+
+	.buttons{
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 19%;
 	}
 	.menu-btn{
-		position: relative;
-		box-sizing: border-box;
-		display: inline-block;
-		padding: 17px 18px 0px 18px;
-		width: 20%;
+		padding-top: 10%;
+		width: 100px;
+		height: 100%;
+		display:flex;
+		flex-direction: row;
+		margin-left: 10%;
 		font-size: 14px;
 		font-weight: 600;
-		line-height: 30px;
+		justify-content: center;
+		align-items: center;
 		text-transform: none;
-		vertical-align: middle;
 	}
 }
